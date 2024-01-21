@@ -1,0 +1,93 @@
+.footer {
+  background: linear-gradient(45deg, #3186c3 100%, #004f86 100%);
+  padding-top: 72px;
+  color: #fff;
+  margin-top: 25px;
+  &__infoCompany {
+    display: inline-blocks;
+    max-width: 306px;
+    > img {
+      width: 183px;
+    }
+    > p {
+      margin-top: 42px;
+      margin-bottom: 72px;
+    }
+  }
+  &__main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    > * > header > h2 {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+    > * > div {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  &__title {
+    color: rgba(224, 224, 224, 1);
+    margin-bottom: 5px;
+  }
+  &__download {
+    display: inline-block;
+    margin-right: 17px;
+  }
+  &__download:first-child {
+    margin-right: 20px;
+  }
+  &__phone {
+    display: flex;
+    flex-direction: column;
+  }
+  &__whats {
+    padding: 6px 14px;
+    background: #fff;
+    color: #2cb742;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    border-radius: 100px;
+  }
+  &__line {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background: rgba(255, 255, 255, 0.12);
+    margin-top: 105px;
+  }
+  &__subFooter {
+    padding: 33px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.5);
+    > span {
+      font-size: 14px;
+    }
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      font-size: 24px;
+      > a {
+        transition: 0.3s all;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

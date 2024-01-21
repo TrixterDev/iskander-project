@@ -1,0 +1,55 @@
+.card {
+  border-radius: 10px;
+  background: #fff;
+  padding: 15px;
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    > button {
+      border: none;
+      background: none;
+      color: #727272;
+    }
+  }
+  &__company {
+    display: flex;
+    > img {
+      margin-right: 10px;
+    }
+    > div > a {
+      color: #0062d5;
+      font-size: 14px;
+      text-decoration: underline;
+    }
+  }
+  &__location {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    > a {
+      display: inline-block;
+      max-width: 165px;
+      font-style: normal;
+    }
+  }
+  &__contact_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+  &__line {
+    border: none;
+    background: #e3e3e3;
+    height: 1px;
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 21px;
+  }
+}

@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  &__title {
+    font-weight: 400;
+    margin-top: 7px;
+  }
+}

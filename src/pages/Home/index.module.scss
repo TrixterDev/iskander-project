@@ -1,0 +1,30 @@
+.stories {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  width: 100%;
+  overflow: auto;
+}
+.seller,
+.auction,
+.news,
+.address {
+  margin-top: 55px;
+  &__swiper {
+    position: relative;
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+}
+.category {
+  margin-top: 50px;
+  &__content {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 0.5rem;
+  }
+}
