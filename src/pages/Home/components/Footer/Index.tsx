@@ -7,17 +7,17 @@ export default function Footer() {
       <div className={`container ${styles.footer__content}`}>
         <div className={styles.footer__main}>
           <header className={styles.footer__infoCompany}>
-            <img src="/public/img/logo.svg" alt="" />
+            <img src="/img/logo.svg" alt="" />
             <p>
               Первый отечественный бренд Iskender на рынке сантехники от
               компании ОсОО «Стройдом.кг»
             </p>
             {/* <div className={styles.footer__download}> */}
             <a href="" className={styles.footer__download}>
-              <img src="/public/img/AStore.png" alt="" />
+              <img src="/img/AStore.png" alt="" />
             </a>
             <a href="">
-              <img src="/public/img/gPlay.png" alt="" />
+              <img src="/img/gPlay.png" alt="" />
             </a>
             {/* </div> */}
           </header>
@@ -69,7 +69,7 @@ export default function Footer() {
                 href="https://web.whatsapp.com/"
                 className={styles.footer__whats}
               >
-                <img src="/public/img/whatsapp.svg" alt="" />
+                <img src="/img/whatsapp.svg" alt="" />
                 WhatsApp
               </a>
             </div>

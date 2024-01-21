@@ -7,7 +7,7 @@ export default function Address({ address, time, phone, link }: IAddress) {
     <div className={styles.card}>
       <header className={styles.card__header}>
         <div className={styles.card__company}>
-          <img src="/public/img/logo-small.svg" alt="" />
+          <img src="/img/logo-small.svg" alt="" />
           <div>
             <h3>Iskender home</h3>
             <a href={link}>Открыть в карте</a>
@@ -19,7 +19,7 @@ export default function Address({ address, time, phone, link }: IAddress) {
       </header>
       <hr className={styles.card__line} />
       <address className={styles.card__location}>
-        <img src="/public/img/address/Location.svg" alt="" />
+        <img src="/img/address/Location.svg" alt="" />
         <a href={link}>{address}</a>
       </address>
       <div className={styles.card__contact_info}>
@@ -28,7 +28,7 @@ export default function Address({ address, time, phone, link }: IAddress) {
           <p>{time}</p>
         </div>
         <div>
-          <img src="/public/img/address/phone.svg" alt="" />
+          <img src="/img/address/phone.svg" alt="" />
           <a href={`tel:${phone}`}>{phone}</a>
         </div>
       </div>
