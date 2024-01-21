@@ -2,25 +2,25 @@
   {
     "title": "На кухонную мебель",
     "discount": "-50%",
-    "img": "/img/news/banner.png",
-    "ilustration": "/img/news/photo.png"
+    "img": "./img/news/banner.png",
+    "ilustration": "./img/news/photo.png"
   },
   {
     "title": "На кухонную мебель",
     "discount": "-50%",
-    "img": "/img/news/banner.png",
-    "ilustration": "/img/news/photo.png"
+    "img": "./img/news/banner.png",
+    "ilustration": "./img/news/photo.png"
   },
   {
     "title": "На кухонную мебель",
     "discount": "-50%",
-    "img": "/img/news/banner.png",
-    "ilustration": "/img/news/photo.png"
+    "img": "./img/news/banner.png",
+    "ilustration": "./img/news/photo.png"
   },
   {
     "title": "На кухонную мебель",
     "discount": "-50%",
-    "img": "/img/news/banner.png",
-    "ilustration": "/img/news/photo.png"
+    "img": "./img/news/banner.png",
+    "ilustration": "./img/news/photo.png"
   }
 ]

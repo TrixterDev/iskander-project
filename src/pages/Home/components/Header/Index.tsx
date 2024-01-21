@@ -10,7 +10,7 @@ export default function Header() {
     <header className={cn(styles.header, { [styles.activeMenu]: hamburger })}>
       <div className={`container ${styles.header__content}`}>
         <a href="#" className={styles.header__logo}>
-          <img src="/img/logo.svg" alt="" />
+          <img src="./img/logo.svg" alt="" />
         </a>
         <div className={cn({ [styles.activeMenu]: hamburger })}>
           <button className={styles.header__catalog}>
@@ -35,12 +35,12 @@ export default function Header() {
                 <h5 className="text-sm">Вход/Регистрация</h5>
               </div>
               <button>
-                <img src="/img/header/user.svg" alt="" />
+                <img src="./img/header/user.svg" alt="" />
               </button>
             </div>
             <hr className={styles.header__account_line} />
             <button className={styles.header__account_cart}>
-              <img src="/img/header/cart.svg" alt="" />
+              <img src="./img/header/cart.svg" alt="" />
             </button>
           </section>
         </div>
